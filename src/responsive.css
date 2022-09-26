@@ -1,0 +1,41 @@
+@media only screen and (max-width: 600px) {
+  .hero-banner {
+    flex-direction: column !important;
+  }
+  .hero-banner div {
+    width: 100%;
+  }
+
+  .item-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item-menu .item {
+    width: 80% !important;
+  }
+  h1,
+  h2,
+  h3 {
+    font-size: 1.8rem !important;
+  }
+  .about-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-section .about-text {
+    width: 100%;
+  }
+
+  .about-section .about-image {
+    width: 80%;
+  }
+
+  #contact form {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .footer-section {
+    display: none;
+  }
+}
